@@ -135,7 +135,8 @@ await message.answer("Keyboard", keyboard=keyboard)
 ### Карусели
 __Простая работа с каруселью *(template)*__
 
-*Код:* Из корня модуля `VkBottle` импортируем функцию `template_gen` и класс `TemplateElement`. В функцию *template_gen* заносим класс *TemplateElement(title, description, photo_id, buttons, action)*. "Подробнее" смотреть в [оф. документации VkBottle](https://github.com/vkbottle/vkbottle/blob/master/docs/tools/template.md) или смотреть про карусели в [оф. документации Vk-API](https://vk.com/dev/bot_docs_templates?f=5.1.%2BCarousels). \
+*Код:* Из корня модуля `VkBottle` импортируем функцию `template_gen` и класс `TemplateElement`. В функцию *template_gen* заносим класс *TemplateElement(title, description, photo_id, buttons, action)*. "Подробнее" смотреть в [оф. документации VkBottle](https://github.com/vkbottle/vkbottle/blob/master/docs/tools/template.md) или смотреть про карусели в [оф. документации Vk-API](https://vk.com/dev/bot_docs_templates?f=5.1.%2BCarousels).
+
 Чтобы указать кнопки в элементе, нужно воспользоваться существующими классами `Keyboard` и указать тип кнопки, к примеру `Text`, в конце получаем JSON объект клавиатуры с помощью метода `get_json()`. Прикрепить карусель можно указав параметр `template` в методе `answer()`.
  
 ```py
