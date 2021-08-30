@@ -132,6 +132,38 @@ keyboard = (
 await message.answer("Keyboard", keyboard=keyboard)
 ```
 
+### Клавиатура (payload)
+
+*Код:* В класс `Text` передаем второй аргумент *payload*, как словарь. Теперь можем указать второй декоратор и в параметр `payload` передать словарь, который указали ранее. Теперь если мы нажмем на кнопку, нас перекинет в функцию где указан этот *payload*.
+
+В коде ниже, если мы нажмем на кнопку *Store*, нас перекинет в функцию `store_handler`, а там будет кнопка *back*, нажав на нее, нас перекинет обратно в функцию `handler`
+
+```py
+from vkbottle.bot import Bot, Message
+from vkbottle import Keyboard, KeyboardButtonColor, Text
+
+from config import token
+
+bot = Bot(token)
+
+
+@bot.on.private_message(text="menu")
+@bot.on.private_message(payload={"cmd": "menu"})
+async def handler(message: Message):
+	keyboard = Keyboard(one_time=True).add(Text("Store", {"cmd": "store"}))
+	await message.answer("MENU", keyboard=keyboard)
+
+
+@bot.on.private_message(text="store")
+@bot.on.private_message(payload={"cmd": "store"})
+async def store_handler(message: Message):
+	keyboard = Keyboard(one_time=True).add(Text("Back", {"cmd": "menu"}), color=KeyboardButtonColor.NEGATIVE)
+	await message.answer("STORE", keyboard=keyboard)
+
+
+bot.run_forever()
+```
+
 ### Карусели
 __Простая работа с каруселью *(template)*__
 
