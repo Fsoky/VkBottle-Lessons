@@ -10,6 +10,6 @@ __Исходники с видео-роликов по VkBottle__
 3. __[VkBottle Bot [ 2 ] | Клавиатура, карусели](https://www.youtube.com/watch?v=ed0sJjs-9YY)__
 	* [Описание](https://github.com/Fsoky/VkBottle-Lessons/blob/main/tutorial/vkbottle_bot_lesson_2.md)
 	* [Код](https://github.com/Fsoky/VkBottle-Lessons/blob/main/source%20code/vkbottle_bot_2.py)
-4. __[VkBottle Bot [ 3 ] | События сообщества и callback кнопка]()__
+4. __[VkBottle Bot [ 3 ] | События сообщества и callback кнопка](https://youtu.be/hRTiOXwjxMw)__
 	* [Описание](https://github.com/Fsoky/VkBottle-Lessons/blob/main/tutorial/vkbottle_bot_lesson_3.md)
 	* [Код](https://github.com/Fsoky/VkBottle-Lessons/blob/main/source%20code/vkbottle_bot_3.py)
