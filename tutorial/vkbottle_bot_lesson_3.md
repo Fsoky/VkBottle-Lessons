@@ -45,7 +45,7 @@ async def group_leave_handler(event: GroupTypes.GroupLeave):
 *Код:* Импортируем из корня модуля классы: *Keyboard*, *Callback*, также нужно импортировать json, можем импортировать его из *vkbottle.modules* 
 
 ```py
-from vkbottle import Keyboard, Callback
+from vkbottle import GroupEventType, GroupTypes, Keyboard, Callback
 from vkbottle.modules import json
 ```
 
