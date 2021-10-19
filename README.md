@@ -16,3 +16,6 @@ __Исходники с видео-роликов по VkBottle__
 5. __[VkBottle Bot [ 4 ] | Стейты и загрузчики](https://youtu.be/fx_1VSSiNOw)__
 	* [Описание](https://github.com/Fsoky/VkBottle-Lessons/blob/main/tutorial/vkbottle_bot_lesson_4.md)
 	* [Код](https://github.com/Fsoky/VkBottle-Lessons/blob/main/source%20code/vkbottle_bot_4.py)
+6. __[VkBottle Bot [ 5 ] | Разделение кода](https://www.youtube.com/watch?v=YXFzX-CiQ_4)__
+	* [Описание](https://github.com/Fsoky/VkBottle-Lessons/blob/main/tutorial/vkbottle_bot_lesson_5.md)
+	* [Код](https://github.com/Fsoky/VkBottle-Lessons/blob/main/source%20code/vkbottle_bot_5.py)
