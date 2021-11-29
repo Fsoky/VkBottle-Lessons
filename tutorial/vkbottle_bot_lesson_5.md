@@ -1,4 +1,4 @@
-## [VkBottle Bot [ 4 ] | Разделение кода](https://www.youtube.com/watch?v=YXFzX-CiQ_4)
+## [VkBottle Bot [ 5 ] | Разделение кода](https://www.youtube.com/watch?v=YXFzX-CiQ_4)
 __Разделение кода на файлы__
 
 ### Основной файл
