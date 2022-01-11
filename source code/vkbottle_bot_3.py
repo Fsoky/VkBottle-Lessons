@@ -44,7 +44,7 @@ async def group_join_handler(event: GroupTypes.GroupJoin):
 			message="Welcome to the club, buddy!",
 			random_id=0
 		)
-	except VKAPIError(901):
+	except VKAPIError[901]:
 		pass
 
 
@@ -56,7 +56,7 @@ async def group_leave_handler(event: GroupTypes.GroupLeave):
 			message="So sorry...",
 			random_id=0
 		)
-	except VKAPIError(901):
+	except VKAPIError[901]:
 		pass
 
 
