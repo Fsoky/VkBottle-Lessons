@@ -17,4 +17,4 @@ async def math_handler(message: Message, a: int, operator, b: int):
 	else:
 		result = "Wrong operator."
 
-	await message.answer(result)
+	await message.answer(str(result))
