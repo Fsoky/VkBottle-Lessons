@@ -1,4 +1,4 @@
-from vkbottle.bot import Bot, load_blueprints_from_package
+from vkbottle import Bot, load_blueprints_from_package
 
 bot = Bot("TOKEN")
 for bp in load_blueprints_from_package("blueprints"):
